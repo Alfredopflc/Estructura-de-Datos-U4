@@ -4,3 +4,4 @@ C:\Users\PIMPO\source\repos\E4.2-VenegasMedinaJoseAlfredo\Arboles\bin\Debug\Arbo
 C:\Users\PIMPO\source\repos\E4.2-VenegasMedinaJoseAlfredo\Arboles\obj\Debug\4.2-VenegasMedinaJoseAlfredo.csproj.CoreCompileInputs.cache
 C:\Users\PIMPO\source\repos\E4.2-VenegasMedinaJoseAlfredo\Arboles\obj\Debug\Arboles.exe
 C:\Users\PIMPO\source\repos\E4.2-VenegasMedinaJoseAlfredo\Arboles\obj\Debug\Arboles.pdb
+C:\Users\PIMPO\source\repos\E4.2-VenegasMedinaJoseAlfredo\Arboles\obj\Debug\4.2-VenegasMedinaJoseAlfredo.csprojResolveAssemblyReference.cache

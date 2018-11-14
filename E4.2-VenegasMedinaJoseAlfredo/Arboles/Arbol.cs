@@ -144,7 +144,7 @@ namespace Arboles
             if(op == 3)
             {
                 Console.WriteLine("Ruta para C: KC");
-                Console.WriteLine("Ruta para J: KDIJD");
+                Console.WriteLine("Ruta para J: KDIJ");
                 Console.WriteLine("Ruta para H: KDEGH");
                 Console.WriteLine("Ruta mas larga: KDEGH");
             }
