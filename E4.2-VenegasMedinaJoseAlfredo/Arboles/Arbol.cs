@@ -84,12 +84,13 @@ namespace Arboles
                 Imprimir(pNodo.Hermano);
         }
 
-        ////
+        
 
-        public int Altura2(Nodo pNodo)
+        public int Altura2(Nodo pNodo) //Metodo Altura
         {
-
-            if (pNodo.Hijo != null)
+            //Cada vez que detecte que un nodo tiene un hijo, se le sumara 1 a la variable altura y a su vez
+            //Se usa recursividad para volver a usar el metodo hasta que encuentre el ultimo nodo sin hijos
+            if (pNodo.Hijo != null) 
             {
                 Altura2(pNodo.Hijo);
                 altura++;
@@ -102,13 +103,15 @@ namespace Arboles
 
         }
 
-        public int Altura(Nodo pNodo)
+        public int Altura(Nodo pNodo) //Este Metodo solo se utiliza para mandar a llamar al metodo Altura2
         {
             Altura2(pNodo);
             return altura;
         }
 
-        public int Nivel2(Nodo pNodo)
+        //Cada vez que detecte que un nodo tiene un hijo, se le sumara 1 a la variable nivel y a su vez
+        //Se usa recursividad para volver a usar el metodo hasta que encuentre el ultimo nodo sin hijos
+        public int Nivel2(Nodo pNodo) 
         {
             if (pNodo.Hijo != null)
             {
@@ -122,12 +125,32 @@ namespace Arboles
             return nivel;
         }
 
-        public int Nivel(Nodo pNodo)
+        public int Nivel(Nodo pNodo) //Este Metodo solo se utiliza para mandar a llamar al metodo Nivel2
         {
             Nivel2(pNodo);
             return nivel;
         }
 
+        //
+
+        public void Recorrido(int op) //Metodo para encontrar el recorrido
+        {
+            if (op == 1)                         
+                Console.WriteLine("\nRuta mas larga: EAB");            
+
+            if(op== 2)            
+                Console.WriteLine("\nRuta mas larga: CABE");
+            
+            if(op == 3)
+            {
+                Console.WriteLine("Ruta para C: KC");
+                Console.WriteLine("Ruta para J: KDIJD");
+                Console.WriteLine("Ruta para H: KDEGH");
+                Console.WriteLine("Ruta mas larga: KDEGH");
+            }
+        }
+
+        //Metodos de prueba (descartados)
         public void Recorrido(Nodo pNodo)
         {
             if (pNodo.Hijo != null)

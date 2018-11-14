@@ -31,6 +31,8 @@ namespace Arboles
                
                 Console.WriteLine("Altura del arbol: {0}", arbol.Altura2(raiz)); //Metodo para calcular altura
                 Console.WriteLine("Numero de Niveles: {0}", arbol.Nivel2(raiz)); //Metodo para calcular nivel
+                arbol.Recorrido(opc); //Imprime recorrido mas largo
+
                 //arbol.Recorrido(raiz);
                 //arbol.Imprimir2();
             }
@@ -50,6 +52,8 @@ namespace Arboles
                 arbol.Imprimir(raiz); //Mandamos a llamar al Metodo imprimir para mostar el arbol en orden
                 Console.WriteLine("Altura del arbol: {0}", arbol.Altura2(raiz)); //Metodo para calcular altura
                 Console.WriteLine("Numero de Niveles: {0}", arbol.Nivel2(raiz)); //Metodo para calcular nivel
+                arbol.Recorrido(opc); //Imprime recorrido mas largo
+
                 //arbol.Recorrido(raiz);
                 //arbol.Imprimir2();
             }
@@ -74,11 +78,15 @@ namespace Arboles
                 arbol.Imprimir(raiz); //Mandamos a llamar al Metodo imprimir para mostar el arbol en orden
                 Console.WriteLine("Altura del arbol: {0}", arbol.Altura2(raiz)-1); //Metodo para calcular altura
                 Console.WriteLine("Numero de Niveles: {0}", arbol.Nivel2(raiz)-1); //Metodo para calcular nivel
+                arbol.Recorrido(opc); //Imprime recorrido mas largo
+
                 //arbol.Recorrido(raiz); arbol.Recorrido(raiz);
                 //arbol.Imprimir2();
             }           
 
             Console.ReadKey();
+            //Codigo basado en: 
+            //https://www.youtube.com/watch?v=90qdczicwxw&fbclid=IwAR29A69kZL2_cgGyZkioN3cPq_GYO97PeYNOKpgIL_Mz0MZ7IssbUkIzZks
         }
     }
 }
