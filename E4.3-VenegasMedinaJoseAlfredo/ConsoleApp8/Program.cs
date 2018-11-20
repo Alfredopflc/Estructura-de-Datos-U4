@@ -11,6 +11,7 @@ namespace ConsoleApp8
         static void Main(string[] args)
         {
             //Inicializamos nuestra matriz, basado en nuestro 
+            //NOTA: a = 1, b = 2, c = 3, d = 4, e = 5, f = 6, g = 7
             long[,] MatrizA = 
             { { 1, 1, 999999999, 999999999, 999999999, 999999999, 999999999 },
             {1,999999999, 1, 999999999, 999999999, 999999999,1 },
@@ -22,6 +23,7 @@ namespace ConsoleApp8
 
             //Objeto de la clase
             CaminosMinimos Ruta = new CaminosMinimos();
+            Console.WriteLine("\n\tNOTA: a = 1, b = 2, c = 3, d = 4, e = 5, f = 6, g = 7 \n");
             Console.WriteLine(Ruta.AlgoritmoFloyd(MatrizA));
             Console.ReadKey();
 
