@@ -1,0 +1,7 @@
+C:\Users\PIMPO\source\repos\20Problemas\20Problemas\bin\Debug\20Problemas.exe.config
+C:\Users\PIMPO\source\repos\20Problemas\20Problemas\bin\Debug\20Problemas.exe
+C:\Users\PIMPO\source\repos\20Problemas\20Problemas\bin\Debug\20Problemas.pdb
+C:\Users\PIMPO\source\repos\20Problemas\20Problemas\obj\Debug\20Problemas.csprojResolveAssemblyReference.cache
+C:\Users\PIMPO\source\repos\20Problemas\20Problemas\obj\Debug\20Problemas.csproj.CoreCompileInputs.cache
+C:\Users\PIMPO\source\repos\20Problemas\20Problemas\obj\Debug\20Problemas.exe
+C:\Users\PIMPO\source\repos\20Problemas\20Problemas\obj\Debug\20Problemas.pdb
